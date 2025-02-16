@@ -1,0 +1,41 @@
+# Rust Build Artifacts
+target/
+**/*.rlib
+**/*.rmeta
+
+# Rust Temporary Files
+*.d
+*.rs.bk
+*.bak
+
+# Dependencies
+Cargo.lock  # Only ignore if it's a library
+
+# Build Artifacts
+*.o
+*.so
+*.a
+*.exe
+*.dll
+
+# Debugging and Logs
+*.log
+debug.log
+nohup.out
+
+# System-Specific Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor/IDE Config Files
+.vscode/
+.idea/
+*.iml
+
+# Secrets & Configs (VERY IMPORTANT)
+.env
+config.toml
+secrets.json
+aws-credentials
